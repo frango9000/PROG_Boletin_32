@@ -36,7 +36,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno{" + "nombre=" + nombre + ", nota=" + nota + ", enderezo=" + enderezo.toString() + '}';
+        return "Alumno{" + "nombre=" + nombre + ", nota=" + nota + ", " + enderezo.toString() + '}';
     }
   
     
